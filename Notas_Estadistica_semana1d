@@ -1,0 +1,126 @@
+# Notas de Estudio: Teoría de Conjuntos, Técnicas de Conteo y Probabilidad
+
+## 1. Definiciones Clave
+
+**Conjunto:** Colección de objetos o elementos bien definidos.
+
+*Ejemplo:* `A = {1, 2, 3}`.
+
+**Subconjunto:** Un conjunto `B` es subconjunto de `A` si todos los elementos de `B` están en `A`.
+
+*Ejemplo:* `B = {1, 2}` es subconjunto de `A = {1, 2, 3}`.
+
+**Espacio Muestral (`S`):** Conjunto de todos los posibles resultados de un experimento.
+
+*Ejemplo:* Al lanzar un dado, `S = {1, 2, 3, 4, 5, 6}`.
+
+**Permutación:** Arreglo ordenado de elementos.
+
+*Ejemplo:* Las permutaciones de `{a, b, c}` son `abc, acb, bac, bca, cab, cba`.
+
+**Combinación:** Selección de elementos sin importar el orden.
+
+*Ejemplo:* Las combinaciones de `{a, b, c}` tomados de 2 en 2 son `{a, b}, {a, c}, {b, c}`.
+
+**Probabilidad Clásica:** Razón entre el número de casos favorables y el número total de casos posibles.
+
+*Ejemplo:* Probabilidad de sacar un 3 al lanzar un dado: `P(3) = 1/6`.
+
+---
+
+## 2. Ejemplos Prácticos
+
+**Conjuntos:**
+
+`A = {1, 2, 3}`, `B = {2, 3, 4}`.
+
+- **Unión:** `A ∪ B = {1, 2, 3, 4}`.
+- **Intersección:** `A ∩ B = {2, 3}`.
+
+**Permutaciones:**
+
+¿Cuántas formas hay de ordenar 3 libros en una estantería? `3! = 6` formas.
+
+**Combinaciones:**
+
+¿Cuántos equipos de 2 personas se pueden formar con 4 personas? `C(4, 2) = 6` equipos.
+
+**Probabilidad:**
+
+Probabilidad de sacar un número par al lanzar un dado: `P(par) = 3/6 = 1/2`.
+
+---
+
+## 3. Diagramas Visuales
+
+**Diagrama de Venn:** Representación gráfica de conjuntos y sus relaciones.
+
+*Ejemplo:* `A ∪ B` y `A ∩ B`.
+
+```
+A: {1, 2, 3}       B: {2, 3, 4}
+Diagrama de Venn:
+A ∩ B = {2, 3}
+A ∪ B = {1, 2, 3, 4}
+```
+
+---
+
+## 4. Fórmulas Importantes
+
+**Permutaciones:**
+
+`P(n, k) = n! / (n − k)!`
+
+*Ejemplo:* `P(5, 3) = 5! / (5 − 3)! = 60`.
+
+**Combinaciones:**
+
+`C(n, k) = n! / [k!(n − k)!]`
+
+*Ejemplo:* `C(5, 3) = 5! / [3!(5 − 3)!] = 10`.
+
+**Probabilidad:**
+
+`P(A) = Número de casos favorables / Número de casos posibles`
+
+*Ejemplo:* `P(sacar un 3 en un dado) = 1/6`.
+
+---
+
+## 5. Resúmenes de Problemas Resueltos
+
+**Problema 1:** ¿Cuántas formas hay de elegir un comité de 3 personas de un grupo de 10?
+
+**Solución:** `C(10, 3) = 120` formas.
+
+**Problema 2:** ¿Cuál es la probabilidad de sacar un as de una baraja de 52 cartas?
+
+**Solución:** `P(As) = 4/52 = 1/13`.
+
+**Problema 3:** Si `A = {1, 2, 3}` y `B = {2, 3, 4}`, encuentra `A ∪ B` y `A ∩ B`.
+
+**Solución:**
+
+- `A ∪ B = {1, 2, 3, 4}`.
+- `A ∩ B = {2, 3}`.
+
+---
+
+## 6. Tips y Estrategias de Estudio
+
+**Memorización de Fórmulas:** Usa reglas mnemotécnicas. Ejemplo: "Permutaciones son para orden, combinaciones para selección".
+
+**Resolución de Problemas:** Identifica si el problema es de permutación o combinación. Usa diagramas de Venn para visualizar conjuntos.
+
+**Práctica Constante:** Resuelve problemas variados para familiarizarte con las fórmulas y conceptos.
+
+**Revisión de Conceptos:** Repasa las definiciones y ejemplos antes de resolver problemas complejos.
+
+---
+
+## 7. Resumen Final
+
+- **Teoría de Conjuntos:** Operaciones básicas como unión, intersección y subconjuntos.
+- **Técnicas de Conteo:** Permutaciones y combinaciones para contar arreglos y selecciones.
+- **Probabilidad:** Cálculo de la probabilidad de eventos usando la regla clásica.
